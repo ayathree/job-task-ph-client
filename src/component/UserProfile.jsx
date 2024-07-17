@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { getUserInfo } from "../Api";
+import { Link } from "react-router-dom";
 
 
 const UserProfile = () => {
@@ -29,6 +30,7 @@ const UserProfile = () => {
 
   return (
     <div>
+      <Link to={'/'}> <button className="btn bg-pink-500 text-white">Home</button></Link>
       <h1>User Profile</h1>
       <p>Name: {user.name}</p>
       <p>Email: {user.email}</p>

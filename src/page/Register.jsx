@@ -60,6 +60,9 @@ const Register = () => {
                 <button className="btn bg-pink-600 text-white">Register</button>
               </div>
               {message && <p>{message}</p>}
+              <div className="form-control mt-6">
+                <Link to={'/'}><button className="btn bg-pink-600 text-white">Not Now</button></Link>
+              </div>
               <p>Already have an account? Please <Link to={'/login'}><span className="text-blue-700 font-bold">Login</span></Link> here</p>
             </form>
           </div>
