@@ -37,7 +37,7 @@ const router = createBrowserRouter([
       },
       {
         path:'/send',
-        element:<SendMoney></SendMoney>
+        element:<Private><SendMoney></SendMoney></Private>
       }
     ]
 
