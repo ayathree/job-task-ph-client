@@ -12,6 +12,7 @@ import Login from './page/Login';
 import Register from './page/Register';
 import UserProfile from './component/UserProfile';
 import Private from './route/Private';
+import SendMoney from './component/SendMoney';
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path:'/userProfile',
         element:<Private><UserProfile></UserProfile></Private>
+      },
+      {
+        path:'/send',
+        element:<SendMoney></SendMoney>
       }
     ]
 

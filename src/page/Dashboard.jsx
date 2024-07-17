@@ -34,7 +34,7 @@ const Dashboard = () => {
           <ul className="menu bg-pink-500 text-base-content min-h-full w-80 p-4">
             {/* Sidebar content here */}
             <Link to={'/userProfile'}><li><a>User Profile</a></li></Link>
-            <li><a>Send Money</a></li>
+            <Link to={'/send'}><li><a>Send Money</a></li></Link>
             <li><a>Cash Out</a></li>
             <li><a>Cash In</a></li>
             <li><a>Balance</a></li>
